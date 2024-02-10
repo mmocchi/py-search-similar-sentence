@@ -39,6 +39,9 @@ def get_candidate_sqls() -> list[Sentence]:
 
 
 def print_similar_sqls(sql: str, n: int = 3, threshold: float = 0.5) -> None:
+    """
+    Print similar SQLs
+    """
     search_results = get_similar_sqls(sql, n=n, threshold=threshold)
 
     print(f'Input SQL(formatted): {sql}')
