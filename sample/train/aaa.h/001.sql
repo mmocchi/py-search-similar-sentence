@@ -1,0 +1,2 @@
+-- SELECTのサンプル
+SELECT * FROM hoge;
